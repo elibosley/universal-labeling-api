@@ -75,3 +75,6 @@ endpoints:
         case: {}
     }
 }
+/product (each or case) {
+    joins each, sku, batch
+}
